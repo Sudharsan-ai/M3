@@ -42,7 +42,8 @@ void EMI(float p,float r,float t){
 
 ## OUTPUT
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/19ca4373-7ac4-4e67-89cd-76e589e0a530)
+
 
 
 
@@ -68,15 +69,33 @@ To write a C program to generate the Fibonacci series for the value 6.
 7.	Stop the program.
 
 ## PROGRAM
+```
+//Name: Sudharsan S 
+//Reg no: 212224040334
+#include <stdio.h>
+void fib();
+int main(){
+    fib();
+}
+void fib(){
+    int n,a=0,b=1,i=0;
+    printf("Enter the value of n : ");
+    scanf("%d",&n);
+    printf("\n");
+    for(;i<n;i++){
+        printf("%d ",a);
+        int c = a+b;
+        a = b;
+        b = c;
+    }
+    printf("\n\n");
+    fib();
+}
 
+```
 ## OUTPUT
 
-
-
-
-
-
-
+![image](https://github.com/user-attachments/assets/d08d43ce-bbc0-4eba-a915-d8f23d7264d5)
 
 ## RESULT
 Thus the program to generate the Fibonacci series for the value 6 has been executed successfully.
