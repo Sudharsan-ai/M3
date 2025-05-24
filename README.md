@@ -148,15 +148,34 @@ To write a C Program to count total number of positive elements in an array.
 1.	Start the program.
 2.	Read a variable.
 3.	Read the array values n number of times.
-4.	If the array value can be divided by 2 then increment count by 1.
+4.	If the array value can be positive increment count by 1.
 5.	Display result.
 6.	Stop the program.
 
 ## PROGRAM
+```
+//Name: Sudharsan S 
+//Reg no: 212224040334
+#include <stdio.h>
+int main(){
+    int n, c =0;
+    printf("Enter the array length : ");
+    scanf("%d",&n);
+    int arr[n];
+    printf("Enter the array elements : ");
+    for(int i=0;i<n;i++){
+        scanf("%d ",&arr[i]);
+        if(arr[i]>=0) c++;
+    }
+    printf("\n\n");
+    printf("The number of positive elements in the given array is: %d\n",c);
+}
 
+```
 
 ## OUTPUT
 
+![image](https://github.com/user-attachments/assets/ce4edb36-ac7f-431c-800d-adb10b5941d4)
 
 
 
