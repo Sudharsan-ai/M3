@@ -120,19 +120,20 @@ To write a C program to read n elements as input and print the last element of t
 //Reg no: 212224040334
 #include <stdio.h>
 int main(){
-    int n;
+    int n,i;
     printf("Enter the array length : ");
     scanf("%d",&n);
     int arr[n];
     printf("Enter the array elements : ");
-    for(int i=0;i<n;i++) scanf("%d ",&arr[i]);
+    for(i=0;i<n;i++) scanf("%d",&arr[i]);
     printf("The last element of the given array : %d",arr[n-1]);
 }
 
 ```
 ## OUTPUT
 
-![image](https://github.com/user-attachments/assets/2be36b21-33b5-4e7e-acb8-86cd42f81d7b)
+![image](https://github.com/user-attachments/assets/49104f79-7cec-429f-bab1-8754ce87ea76)
+
 
 ## RESULT
 Thus the program to read n elements as input and print the last element of the array has been executed successfully.
